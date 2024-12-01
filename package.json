@@ -22,6 +22,10 @@
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
     "@fortawesome/free-regular-svg-icons": "^6.7.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@tanstack/angular-query-devtools-experimental": "^5.62.0",
+    "@tanstack/angular-query-experimental": "^5.62.0",
+    "angular-auth-oidc-client": "^18.0.2",
+    "ngxtension": "^4.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
