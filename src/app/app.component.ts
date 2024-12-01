@@ -6,12 +6,13 @@ import { HeaderComponent } from './componenets/header/header.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HomeComponent,HeaderComponent],
+  imports: [RouterOutlet, HeaderComponent],
   template: `
     <app-header/>
-    <app-home/>
-    
-    <router-outlet/>
+    <main>
+       <router-outlet/>
+    </main>
+   
   `,
   styles: []
 })
